@@ -7,14 +7,18 @@
 }
 body{
     font-family: "Raleway" , sans-serif;
-    width: 100%;
+    width: 1160px;
     background-color: #e3e3e3;
     justify-content: center;
-    align-content:start;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
     margin-top: -20px; /* Pour placer le header le plus haut sur la page*/
 }
 main{
     display: flex;
+    flex-direction: column;
+    align-items: end;
     background-color: #ffffff;
 }
 header{
@@ -27,6 +31,7 @@ h1{
 }
 h2{
     font-family: "lato" , sans-serif;
+    color: #17abb3;
 }
 header img{
     width: 16px;
@@ -44,4 +49,63 @@ header img{
 a{
     text-decoration:none;
     color: #ffffff;
+}
+p{
+    text-indent: 2rem;
+}
+.container_formations{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    line-height: 2;
+    
+}
+.container_formations div{
+    display: flex;
+    flex-wrap: wrap;
+    width: 330px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+.strong_1{
+    line-height: 0;
+    font-weight: bold;
+}
+time{
+    color: #17abb3 ;
+    width: 60%;
+    text-align: end;
+}
+section{
+    width: 70%;
+    margin-right: 30px;    
+}
+.container_stages{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    line-height: 2; 
+}
+.container_stages div{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 40px;
+    margin-bottom: 10px; 
+}
+.container_experiences{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    line-height: 2;
+}
+.container_experiences div{
+    display: flex;
+    flex-wrap: wrap;
+    width: 205px;
+    height: 40px;
+    margin-bottom: 10px;
 }
