@@ -1,0 +1,12 @@
+body{
+    width: 100%;
+    background-color: #e3e3e3;
+    justify-content: center;
+}
+main{
+    display: flex;
+    background-color: #ffffff;
+}
+header{
+    background-color: #17abb3;
+}
