@@ -91,7 +91,7 @@ p{
     line-height: 0;
     font-weight: bold;
 }
-time{
+.time{
     color: #17abb3 ;
     width: 40%;
     text-align: end;
