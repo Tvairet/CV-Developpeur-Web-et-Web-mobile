@@ -8,7 +8,7 @@
 body{
     font-family: "Raleway" , sans-serif;
     width: 1160px;
-    background-color: #e3e3e3;
+    background-color: #f5f5f5;
     justify-content: center;
     display: flex;
     flex-direction: column;
@@ -29,6 +29,21 @@ header{
     text-align: center;
     margin-left: 50px;
     margin-right: 50px;
+    height: 200px;
+}
+figure{
+    width: 100px;
+    height: 100px;
+}
+figure img{
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+    align-self: flex-start;
+    position: relative;
+    top: -140px;
 }
 h1{
     font-family: "lato" , sans-serif;
@@ -78,11 +93,11 @@ p{
 }
 time{
     color: #17abb3 ;
-    width: 50%;
+    width: 40%;
     text-align: end;
 }
 section{
-    width: 70%;
+    width: 60%;
     margin-right: 30px;    
 }
 .container_stages{
@@ -125,6 +140,7 @@ footer{
     height: 80px;
     align-content: center;
     color: #ffffff;
+    margin: 0 50px 0 50px;
 }
 footer time{
     all: unset;
@@ -133,4 +149,59 @@ footer small{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.part_left{
+    display: flex;
+    flex-direction: column;
+    background-color: #e3e3e3;
+    align-self: start;
+    position: absolute;
+    width: 350px;
+    height: 1149px;
+}
+.langue{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 10px 0 10px;;
+}
+.langue span{
+    flex-basis: 50%;
+}
+.part_left h2{
+    text-align: center;
+}
+.part_left span{
+    font-weight: bold;
+}
+.competences{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:0 10px 0 10px;
+}
+.star{
+    color: #17abb3;
+}
+.competences span{
+    flex-basis: 40%;
+}
+.container_formations div:hover{
+    background-color:#e3e3e3 ;
+    border-left: 4px solid #17abb3;
+}
+.container_stages div:hover{
+    background-color: #e3e3e3;
+    border-left: 4px solid #17abb3;
+}
+.container_experiences div:hover{
+    background-color: #e3e3e3;
+    border-left: 4px solid #17abb3; 
+}
+figure a:hover{
+    cursor: zoom-in;
+}
+.social_link a:hover{
+    opacity: 0.5;
 }
